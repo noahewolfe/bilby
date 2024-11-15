@@ -1,0 +1,17 @@
+# The proposed 20km-Cosmic Explorer located near the site of LIGO Livingson.
+# CE-T2000017
+# https://dcc.cosmicexplorer.org/CE-T2000017-v7
+# orientation is that of CE-T2300002-05
+
+name = 'CE20'
+power_spectral_density = PowerSpectralDensity(asd_file='cosmic_explorer_20km_strain-CLEAN-FMIN.txt')
+minimum_frequency = 5
+maximum_frequency = 4096
+length = 20
+latitude = 29
+longitude = -94
+elevation = -6.574
+xarm_azimuth = 200. 
+yarm_azimuth = 200. + 90.
+xarm_tilt = -3.121e-4
+yarm_tilt = -6.107e-4
